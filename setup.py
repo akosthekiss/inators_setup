@@ -15,7 +15,7 @@ setup(
     license='BSD',
     author='Renata Hodovan, Akos Kiss',
     author_email='hodovan@inf.u-szeged.hu, akiss@inf.u-szeged.hu',
-    description='inators_setup: ',  # TODO
+    description='inators_setup: package setup utilities for inators',
     long_description=open('README.rst').read(),
     zip_safe=False,
     include_package_data=True,
