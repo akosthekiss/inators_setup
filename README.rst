@@ -9,7 +9,7 @@ It is mostly used by the *...inator* project family, whence its name.
 ``setuptools_scm`` plugin
 =========================
 
-One (and currently, the only one) functionality of ``inators_setup`` is it being
+One (and currently, the only one) functionality of ``inators_setup`` is being
 a `setuptools_scm`_ plugin. It adds the public version scheme **inators-tag**
 and the local version scheme **inators-distance-node-date** to those already
 provided by ``setuptools_scm``. When used together, these scheme implementations
@@ -24,7 +24,7 @@ The scheme implementations render the version roughly as follows:
   ``{tag}``
 - a number of revisions after a version tag:
   ``{tag}+{distance}.{scm letter}{revision hash}``
-- uncommitted changes in the working directory (even if on version tag):
+- uncommitted changes in the working directory (even if on a version tag):
   ``{tag}+{distance}.{scm letter}{revision hash}.dYYYYMMDD``
 
 To use this versioning, add ``inators_setup`` to ``setup_requires`` in
