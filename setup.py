@@ -31,5 +31,5 @@ setup(
         'setuptools_scm.local_scheme': [
             'inators-distance-node-date = inators_setup.version:get_local_distance_node_date',
         ],
-    }
+    },
 )
