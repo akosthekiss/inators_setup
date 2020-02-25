@@ -30,7 +30,7 @@ The scheme implementations render the version roughly as follows:
 To use this versioning, add ``inators_setup`` to ``setup_requires`` in
 ``setup.py``, and also specify the ``inators-*`` schemes in ``use_scm_version``:
 
-.. code:: python
+.. code-block:: python
 
     from setuptools import setup
     setup(
