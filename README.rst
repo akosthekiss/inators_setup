@@ -13,8 +13,8 @@ One (and currently, the only one) functionality of ``inators_setup`` is being
 a `setuptools_scm`_ plugin. It adds the public version scheme **inators-tag**
 and the local version scheme **inators-distance-node-date** to those already
 provided by ``setuptools_scm``. When used together, these scheme implementations
-work well with dated-based versioning (or in any other versioning where the next
-development version cannot be guessed as in semver).
+work well with dated-based versioning (or with any other versioning where the
+next development version cannot be guessed as in semver).
 
 .. _`setuptools_scm`: https://github.com/pypa/setuptools_scm
 
